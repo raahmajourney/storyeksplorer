@@ -1,0 +1,21 @@
+{
+  "name": "story-explorer",
+  "version": "1.0.0",
+  "description": "Aplikasi untuk berbagi cerita",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "Nama Anda",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^6.3.5",
+    "vite-plugin-pwa": "^1.0.0"
+  },
+  "dependencies": {
+    "idb": "^8.0.3",
+    "workbox-precaching": "^7.3.0"
+  }
+}

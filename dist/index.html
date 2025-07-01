@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Explorer</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+  <script type="module" crossorigin src="/assets/index-DQyGRFQr.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-B3PQfDuW.css">
+<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to Content</a>
+    
+    <header class="app-bar">
+        <div class="container">
+            <h1><a href="#/">Story Explorer</a></h1>
+           <nav class="navigation">
+             <ul>
+                 <li><a href="#/" class="nav-link" data-route="/">Home</a></li>
+                 <li><a href="#/add" class="nav-link" data-route="/add">Add Story</a></li>
+                 <li><a href="#/fav" class="nav-link" data-route="/fav">Favorite Story</a></li>
+                 <li class="auth-nav-item">
+                 <a href="#/auth" class="nav-link" id="auth-link" data-route="/auth">Login</a>
+              </li>
+            <li class="user-nav-item" style="display: none;">
+                 <div class="user-dropdown">
+                 <button class="user-btn" aria-expanded="false" aria-label="User menu">
+                 <span id="username-display"></span>
+                 <i class="fas fa-caret-down"></i>
+                 </button>
+             <ul class="dropdown-menu">
+             <li><a href="#/profile" class="dropdown-link">Profile</a></li>
+             <li><button id="logout-btn" class="dropdown-link">Logout</button></li>
+         </ul>
+      </div>
+    </li>
+  </ul>
+</nav>
+            <button class="hamburger" aria-label="Navigation menu">☰</button>
+        </div>
+    </header>
+
+    <main id="main-content"></main>
+
+    <footer>
+        <p>© 2023 Story Explorer - Dicoding Submission</p>
+    </footer>
+
+    <button id="install-btn" style="display: none;">Install App</button>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</body>
+</html>
